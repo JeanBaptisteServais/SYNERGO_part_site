@@ -7,10 +7,10 @@ garde
   
     -> secions 1...7
     
-    -> agregation : animation
-    
-    -> arrow for navigation top/bot
-    
-    -> menu
-    
-    -> acces to web site
+        -> agregation : animation
+
+        -> arrow for navigation top/bot
+
+        -> menu
+
+        -> acces to web site
