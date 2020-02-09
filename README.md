@@ -9,8 +9,8 @@ garde
     
         -> agregation : animation
 
-        -> arrow for navigation top/bot
+            -> arrow for navigation top/bot
 
-        -> menu
+            -> menu
 
-        -> acces to web site
+            -> acces to web site
