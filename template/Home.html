@@ -10,16 +10,16 @@
     <meta name="Resource-type" content="Document" />
 </head>
 
-<body>
 
+<body>
 
 
     <div id="fullpage">
 
 
-        {% include "home_composition/sections/section1/section1.html" %}
+        <!--{% include "home_composition/sections/section1/section1.html" %}-->
 
-        {% include "home_composition/sections/section2/section2.html" %}
+        <!--{% include "home_composition/sections/section2/section2.html" %}-->
 
 
         <div class="section" id="section3">
@@ -174,7 +174,7 @@
     .to_project_title{
         position:relative;
         color:white;
-        margin-top:-10%;
+        margin-top:20%;
         font-weight:bold;
         letter-spacing:1px;
         padding-bottom:2%;
@@ -190,6 +190,7 @@
         width:100%;
         position:relative;
         height:75px;
+        z-index:100;
     }
     .link_github{
         font-size:0.86em;
@@ -225,12 +226,12 @@
 
 
 
-<script type="text/javascript" src="/static/Home/js/fullpage.js"></script>
+<script type="text/javascript" src="static\home_composition/js/fullpage.js"></script>
 
 <script type="text/javascript">
     //sectionsColor: ['#1A1A1A', '#1A1A1A', '#7BAABE', 'whitesmoke', '#ccddff'],
     var myFullpage = new fullpage('#fullpage', {
-        sectionsColor: ['#1A1A1A', '#1A1A1A', '#7BAABE', '#455561', '#ccddff'],
+        sectionsColor: ['#C6DEA6', '#E55934', '#7BAABE', '#455561', '#ccddff'],
         anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', 'dzad', 'cxwcw', 'lastPage'],
 
 
